@@ -4,10 +4,10 @@ require 'shoulda/whenever/version'
 Gem::Specification.new do |s|
   s.name        = "shoulda-whenever"
   s.version     = Shoulda::Whenever::VERSION.dup
-  s.authors     = ["Claudiu Tarta", "Chris Hunt"]
+  s.authors     = ["Matthew Gerrior", "Claudiu Tarta", "Chris Hunt"]
   s.date        = Time.now.strftime("%Y-%m-%d")
-  s.email       = "claudiu.tarta@epigenesys.org.uk"
-  s.homepage    = "http://rubygems.org/gems/shoulda-whenever"
+  s.email       = "info@epigenesys.org.uk"
+  s.homepage    = "https://github.com/epigenesys/shoulda-whenever"
   s.summary     = "Shoulda style matchers for whenever gem"
   s.license     = "MIT"
   s.description = "This gem is designed to make it easier to test that the schedule you built with the 'whenever' gem is accurate."
@@ -20,5 +20,5 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "rspec", "~> 3.7"
   s.add_development_dependency "whenever", "~> 0.10"
-  s.add_development_dependency "activesupport", "~> 5.2"
+  s.add_development_dependency "activesupport", ">= 7.0"
 end

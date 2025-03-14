@@ -2,7 +2,7 @@ require "spec_helper"
 require "whenever"
 require "shoulda/whenever/schedule_matcher"
 require "rspec/matchers/fail_matchers"
-require "active_support/duration"
+require "active_support/all"
 
 describe Shoulda::Whenever::ScheduleMatcher do
   include Shoulda::Whenever
